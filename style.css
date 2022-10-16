@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+
+ html{
+    background: url(image/city.jpg) no-repeat center fixed; 
+    background-size: cover;
+    font-family: 'Oxygen', sans-serif;
+} 
+
+.table-container{
+   display: block;
+   border-collapse: collapse;
+   margin: auto;
+   font-size: 0.9em;
+   min-width: 400px; 
+   border-radius:5px 5px 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+   
+   
+
+}
+.table-container thead tr{
+    background-color:#009879;
+    color:#ffffff;
+    text-align:left;
+    font-weight: bold;
+}
+.table-container th,
+.table-container td{
+    padding: 12px 15px;
+}
+.table-container tbody tr td{
+    border-bottom: 1px solid #dddddd;
+    background-color: white;
+}
+.table-container tbody tr td:nth-of-type(even){
+      background-color: #f3f3f3;
+
+}
+.table-container tbody tr td:last-of-type{
+    /* border-bottom: 2px  solid #009879; */
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.div-class  {
+    line-height: 1.4;
+}
+
+#container{
+    font-family: 'Raleway', sans-serif;
+    margin:100px auto;
+    max-width: 450px;
+    padding: 20px ;
+     background-color: #009879 ; 
+     border-radius: 5px;
+   
+    
+}
+
+
+.form-wrap{
+    background-color: transparent;
+    padding: 15px 25px;
+    color: white;
+    
+}
+.form-wrap h1,
+.form-wrap p{
+    text-align: center;
+}
+.form-wrap .form-group{
+    margin-top: 15px;
+
+}
+.form-wrap .form-group label{
+    display: block;
+    color:white;
+}
+.form-wrap .form-group input{
+    width:100%;
+    padding:10px;
+    border: #ddd 1px solid;
+    border-radius: 3px;
+}
+.form-wrap .addbtn{ 
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    background:red;
+    cursor: pointer;
+
+}
+.form-wrap .updatebtn{ 
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    background:green;
+    cursor: pointer;
+
+}
+.form-wrap button:hover{
+    background:rgb(182, 5, 7);
+}
+.form-wrap .bottom-text{
+    font-size: 13px;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+/* .avatar-icon{
+    width:100px;
+    height: auto;
+    padding: 30px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+} */
+
+input{
+width: 100px;
+margin: 10px 20px;
+
+}
+
+button{
+ display: block;
+ width: 100%;
+ margin: 15px;
+
+}
+
+span:hover{
+ cursor: pointer;
+}
+
+
+
+  .btn{
+  text-decoration: none;
+  margin: auto;
+  padding: 8px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.btn-info{
+    background-color: yellow;
+    color: black;
+}
+.btn-danger{
+    background-color: red;
+    color: white;
+   
+}
+.btn-zapellin{
+    background-color: rgb(99, 182, 99);
+    color: white;
+}
